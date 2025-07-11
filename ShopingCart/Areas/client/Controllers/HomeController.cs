@@ -1,9 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ShopingCart.Models;
+using ShopingCart.ViewModels;
 
-namespace ShopingCart.Controllers;
+namespace ShopingCart.Areas.client.Controllers;
 
+[Area("client")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
