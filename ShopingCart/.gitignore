@@ -1,0 +1,105 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+x64/
+x86/
+bld/
+[Oo]ut/
+out/
+
+# Publish
+.publish/
+app.publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+# Uncomment nếu bạn muốn quản lý thư viện trong source, thường nên để dòng này
+# !packages/build/
+
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Rider
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# JustCode
+.JustCode
+
+# TeamCity
+_TeamCity*
+
+# DotCover
+*.dotCover
+
+# Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+# IIS
+*.vspscc
+*.vssscc
+.publishsettings
+*.dbmdl
+
+# MS Test/Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Chutzpah
+_Chutzpah*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Web workbench (sass)
+.sass-cache/
+
+# Web files
+wwwroot/node_modules/
+node_modules/
+bower_components/
+
+# App Data
+App_Data/
+*.mdf
+*.ldf
+
+# Logs
+*.log
+logs/
+
+# Others
+~$*
+*~
+*.tmp
+*.bak
+*.old
+*.cache
+*.DS_Store
+Thumbs.db
+
+# Python Tools for Visual Studio (nếu dùng python)
+__pycache__/
+*.pyc
